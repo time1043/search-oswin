@@ -1,0 +1,16 @@
+﻿
+ul.llmbtn li{background:#F9F9F9;border:1px solid #dedede;border-left:none;border-top:none;color:#07519A;cursor:pointer;display:block;float:left;height:25px;line-height:25px;text-align:center;text-decoration:none;width:80px; background-repeat:repeat-x;}
+ul.llmbtn li:hover{text-decoration:none;}
+ul.llmbtn li.curr{background:#fff;border-bottom-color:#fff;cursor:default;color:#014598;}
+
+ul.xw li{background:#F1F1F1;border-left:none;border-top:none;color:#333;  cursor:pointer;display:block;float:left;height:25px;line-height:25px;text-align:center;text-decoration:none;width:70px; font-size:12px; background-repeat:repeat-x;}
+ul.xw li:hover{text-decoration:none;}
+ul.xw li.curr{background:#fff;border-bottom:none; border-right:1px solid #ccc;border-top:none; border-bottom-color:#fff;cursor:default;color:#333;font-size:12px;}
+
+.menutab1{width:80px; margin-top:4px; background-color:#fff; float:left;height:22px;padding-top:6px; margin-left:5px; margin-right:5px;}
+.menutabSelected{width:80px; background-color:#EE7101; float:left;padding-top:9px;height:23px;}
+.menutab2{width:80px; float:left;padding-top:9px;}
+A.Top1:link,A.Top1:active,A.Top1:visited{font-size:14px;TEXT-DECORATION:none ;Color:#CC6600; font-weight:bold;}
+A.Top1:hover{font-size:14px;TEXT-DECORATION: none;Color:#CC6600; font-weight:bold;}
+A.Top2:link,A.Top2:active,A.Top2:visited{font-size:14px;TEXT-DECORATION:none ;Color:#fff; font-weight:bold;}
+A.Top2:hover{font-size:14px;TEXT-DECORATION: none;Color:#FFEA00; font-weight:bold;}

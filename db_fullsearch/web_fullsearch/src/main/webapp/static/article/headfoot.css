@@ -1,0 +1,25 @@
+﻿
+body {margin: 0; padding: 0;font-family:Arial, Helvetica;}
+.hrxu{border-top:1px dashed #999}
+form {margin:0px;}
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#5A5A5A;font-family:Arial, Helvetica;}
+A:hover{TEXT-DECORATION: underline;Color:#E62600;}
+td,div {
+	font-size:12px;Color:#5A5A5A;font-family:Arial, Helvetica;
+}
+.divmessage{width:90%;padding:10px;margin:10px;border:solid 1px #FFBA53; background-color:#FFF5CC;font-size:14px;font-weight:bold;color:#000000;text-align:center;}
+.clear{ clear:both;} 
+ul,li
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.hzsiteKuang{width: 100%; border: solid 1px #ccc; margin-top: 8px;}
+.hzsiteClass{font-weight:bold; margin-left:3px; font-size:14px;}
+.footHrLine{border-bottom:1px solid #ccc;margin-bottom:10px;height:15px;width:100%;}
+.footHrLine100{border-bottom:1px solid #ccc;margin-bottom:10px;height:15px;width:100px;}
+.footShuLine{float:left;width:20px;height:180px; margin-bottom:20px; background-image:url("http://misc.manmanbuy.com/images/book/hzsiteline.png"); background-repeat:repeat-y;}
+.ClasSiteBlock{float:left;width:180px;text-align:left;}
+.SiteListBlock{width:160px;line-height:22px;margin-left:3px;}

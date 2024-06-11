@@ -1,0 +1,20 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql"  prefix="sql"%>
+<%@ taglib tagdir="/WEB-INF/tags/article" prefix="article"%>
+<%@ taglib uri="/WEB-INF/tld/libs.tld" prefix="libs"%> 
+<c:set var="article_path" value="${pageContext.request.contextPath}"></c:set>
+<link rel="stylesheet" href="${article_path}/article/Style.css" type="text/css">
+<link rel="stylesheet" href="${article_path}/article/tab.css" type="text/css">
+<link rel="stylesheet" href="${article_path}/article/headfoot.css" type="text/css">
+<link rel="stylesheet" href="${article_path}/article/core.css" type="text/css">
+<script src="${article_path}/article/jquery-1.6.1.js" type="text/javascript"></script>
+<script src="${article_path}/article/comm.js" type="text/javascript"></script>
+<script src="${article_path}/article/jquery.lazyload.js" type="text/javascript"></script>
+<script src="${article_path}/article/SimpleCore.js" type="text/javascript"></script>
+<script src="${article_path}/article/SimpleAutoComplete.js" type="text/javascript"></script>
+<script src="${article_path}/article/getxiala.js" type="text/javascript"></script>
+<script src="${article_path}/article/pj.js" type="text/javascript"></script>
+<script src="${article_path}/js/article/chart.js" type="text/javascript"></script>
+<script src="${article_path}/js/echarts/esl.js"></script>

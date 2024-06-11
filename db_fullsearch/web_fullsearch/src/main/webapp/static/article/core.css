@@ -1,0 +1,285 @@
+pre.code,code.code{
+	border-color:#ddd;
+	background:#fbfbfb;
+	margin: 10px 0;
+	border-radius:3px;
+	font-size:12px;
+	font-family:Menlo,Monaco,'DejaVu Sans Mono','Bitstream Vera Sans Mono','Consolas','Courier New',Courier,monospace;
+	padding:5px;
+}
+.desc{
+	background:#edf2fe;
+	padding: 3px 5px;
+	margin: 10px 0;
+}
+.api-name{
+	color:#444;
+	font-size: 16px;
+	margin: 20px 0 10px;
+}
+.api-guide{
+	color:#4b8b20;
+	font-size: 14px;
+	margin: 20px 0 10px;
+}
+p{
+	line-height: 22px;
+}
+.configList{
+	width:100%;
+}
+.configList th{
+	background:#f1f1f1;
+}
+.configList td,.configList th{
+	border:1px solid #ddd;
+	height:30px;
+	text-align:left;
+	padding-left:10px;
+}
+
+.dp-highlighter .comment, .dp-highlighter .comments{
+	color:#999;
+}
+.dp-highlighter{
+	background:#f8f8f8;
+	margin-top: 10px;
+}
+.dp-highlighter ol li, .dp-highlighter .columns div{
+	border-left-color:#f37066;
+	line-height: 18px;
+	list-style: none;
+}
+.dp-highlighter ol li.alt{
+	background-color:#f8f8f8;
+}
+.dp-highlighter .string{
+	color:#839cf7;
+}
+.dp-highlighter ol{
+	margin: 0 0 1px 0 !important;
+}
+
+.container{
+	width:960px;
+	margin:0 auto;
+}
+#hd,#bd{
+	margin-top:10px;
+}
+#hd{
+	height:50px;
+	overflow:hidden;
+}
+.s-logo,.s-nav-l,.s-nav-r,.s-nav ul,.demo-btn{
+	background-image:url("http://mmbinclude.oss-cn-hangzhou.aliyuncs.com/images/all.png");
+	background-repeat:no-repeat;
+}
+.s-logo{
+	width:209px;
+	height:50px;
+	background-position:0 0;
+	float:left;
+}
+.s-nav{
+	float:right;
+	height:34px;
+	position: relative;
+	margin-top:10px;
+	width:420px;
+}
+.s-nav-l,.s-nav-r{
+	width:5px;
+	height:34px;
+	overflow: hidden;
+}
+.s-nav-l{
+	float:left;
+	background-position: 0 -50px;
+}
+.s-nav-r{
+	float:right;
+	background-position: -5px -50px;
+}
+.s-nav ul{
+	height:34px;
+	background-position:0 -88px;
+	background-repeat: repeat-x;
+	width:410px;
+	float:left;
+}
+.s-nav ul li{
+	float:left;
+	font-size:14px;
+	padding: 0 20px;
+	line-height: 34px;
+}
+.current{
+	background:#6b84e3;
+	height:31px;
+	overflow: hidden;
+}
+.s-nav ul li a,.s-nav ul li a:hover{
+	color:#fff;
+}
+.s-title{
+	font-size:16px;
+}
+.s-list{
+	float: left;
+	width:130px;
+	border-right:1px solid #ddd;
+}
+.s-list-title{
+	color:#444;
+	font-size: 14px;
+	padding:10px 0;
+}
+.s-list ul{
+	margin-left:10px;
+}
+.s-list ul li{
+	line-height: 22px;
+}
+.api-content{
+	margin-left:160px;
+}
+.doc-content{
+	margin-top:20px;
+}
+.s-list-first{
+	padding-top:0;
+}
+.demo-btn{
+	width:82px;
+	height:28px;
+	background-position:-98px -50px;
+	text-align:center;
+	line-height:25px;
+	color:#444;
+	float:right;
+	font-size:12px;
+	font-weight:normal;
+}
+.demo-btn:hover{
+	color:#444;
+}
+.demo-content .api-content{
+	margin-left:0;
+}
+.view-api{
+	font-size:12px;
+}
+.gray{
+	color:#999;
+}
+.ml10{margin-left:10px}
+.demo-area {
+                padding: 10px;
+                border: 1px solid #eee;
+                background: #fbfbfb;
+                height: 100px;
+            }
+            
+            .drag-demo {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                border: 1px solid #ddd;
+                background: #f6f6f6;
+            }
+            
+            .drag-demo h2 {
+                margin: 5px;
+                color: #fff;
+                background: #839CF7;
+                padding: 3px 5px;
+                text-align: center
+            }
+            
+            .demo-mail {
+                float: left;
+                width: 120px;
+            }
+            
+            .demo-mail li {
+                line-height: 25px;
+                border-bottom: 1px solid #ddd;
+                padding-left: 10px;
+                cursor: pointer;
+            }
+            
+            .mail-list {
+                margin-left: 140px;
+            }
+            
+            .mail-list table {
+                width: 600px;
+            }
+            
+            .mail-list td {
+                border: 1px solid #ddd;
+                height: 25px;
+                padding-left: 10px;
+            }
+            
+            .drag-proxy {
+                background: red;
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                text-align: center;
+                color: #fff;
+            }
+            
+            .demo-mail em {
+                margin-left: 10px;
+                color: red
+            }
+            
+            .mail-list td span {
+                cursor: move;
+                vertical-align: middle;
+            }
+            
+            .mail-list td * {
+                vertical-align: middle;
+            }
+            
+            .simple-show {
+                padding: 30px 100px;
+            }
+            
+            #complex {
+                height: auto;
+                overflow: hidden;
+            }
+            
+            #complex li {
+                float: left;
+                margin-left: 10px;
+                display: inline;
+                width: 200px;
+                height: 100px;
+                overflow: hidden;
+            }
+.text{
+				border:1px solid #ddd;
+				height:18px;
+				text-indent:5px;
+			}
+            
+           .orange{
+                color:#FF5500;
+            }
+            .simple-autocomplete-container{
+                border:1px solid #ddd;
+                box-shadow:1px 1px 3px rgba(200,200,200,0.8);
+				background:#fff;
+            }
+            .simple-autocomplete-select{
+                background: #f1f1f1;
+            }
+            .simple-autocomplete-container li{
+                padding: 3px 10px;
+            }
